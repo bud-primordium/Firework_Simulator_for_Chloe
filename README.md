@@ -2,7 +2,7 @@
 
 ## 预览
 
-Demo ：https://nianbroken.github.io/Firework_Simulator/
+Demo ：[赛博烟花](https://bud-primordium.github.io/Firework_Simulator/)
 
 
 ## 展示图
