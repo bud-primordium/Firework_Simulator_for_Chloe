@@ -29,7 +29,7 @@ const IS_HIGH_END_DEVICE = (() => {
 const MAX_WIDTH = 7680;
 const MAX_HEIGHT = 4320;
 const GRAVITY = 0.9; //以像素/秒为单位的加速度
-let simSpeed = 1;
+let simSpeed = 1.2;
 
 function getDefaultScaleFactor() {
 	if (IS_MOBILE) return 0.9;
