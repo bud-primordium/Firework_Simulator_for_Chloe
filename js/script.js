@@ -1978,12 +1978,12 @@ class Shell {
 		}
 
 		if (!this.disableWordd && store.state.config.wordShell) {
-			if (Math.random() < 0.1) {
-				if (Math.random() < 0.5) {
+			if (Math.random() < 0.2) {
+				if (Math.random() < 1.0) {
 					createWordBurst(randomWord(), dotStarFactory, x, y);
 				}
 			}
-		}
+		}   // 此处原本实际概率为0.1*0.5=0.05，现改为0.2*1.0=0.2
 
 		if (this.pistil) {
 			const innerShell = new Shell({
